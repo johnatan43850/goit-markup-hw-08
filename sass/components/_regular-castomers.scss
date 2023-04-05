@@ -1,0 +1,59 @@
+/* regular customers */
+
+.customers-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.customers {
+
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.customers-items {
+    margin-right: 30px;
+
+    &:last-child {
+    
+         margin-right: 0px;
+        }
+}
+
+
+
+
+
+.icon-customers {
+    display: inline-block;
+    fill: currentColor;
+}
+
+.customers-link {
+    transition-property: border, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 90px;
+    color: var(--icon-fill-color);
+    border: 1px solid var(--icon-fill-color);
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+            color: var(--accent-text-color);
+            border: 1px solid var(--accent-text-color);
+        }
+}
+

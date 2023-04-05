@@ -1,0 +1,184 @@
+/* logo */
+
+.logo-box {
+    display: flex;
+}
+
+.logo-height {
+    display: block;
+
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.logo {
+    margin-right: 93px;
+
+    font-family: var(--font-familiy-secondaruy);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+
+
+.logo-blue {
+    color: var(--accent-text-color);
+
+}
+
+.logo-black {
+
+    color: var(--logo-text-color)
+}
+
+.logo-white {
+    display: inline-block;
+    color: var(--white-text-color);
+
+}
+
+
+/* nav */
+
+
+
+.nav {
+    display: flex;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+
+}
+
+.nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav .link.current {
+    color: var(--accent-text-color)
+}
+
+.current {
+    position: relative;
+
+    &::after {
+    
+            content: "";
+            display: block;
+            width: 100%;
+            height: 5px;
+            background-color: var(--accent-text-color);
+    
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            border-radius: 4px;
+    
+    
+        }
+}
+
+
+
+
+.link {
+
+    color: var(--pramary-text-color);
+
+    &:hover,
+    &:focus {
+            color: var(--accent-text-color);
+    
+     }
+}
+
+.link-header {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+
+
+}
+
+
+
+/*heder*/
+.header {
+    border-bottom: 1px solid #ECECEC;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    min-height: 80px;
+    top: 0;
+    left: 0;
+    background: var(--white-text-color);
+
+}
+
+.header-box {
+    align-items: center;
+    display: flex;
+}
+
+.contakt {
+
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contakt-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+.heder-contact {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--secondary-text-color);
+
+   &:not(:last-child) {
+            margin-right: 50px;
+}
+
+&:hover,
+&:focus {
+
+    color: var(--accent-text-color);
+}
+
+}
+
+
+
+
+
+
+.meil-icon {
+
+    display: inline-block;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+
+.tel-icon {
+    margin-right: 10px;
+    fill: currentColor;
+
+}

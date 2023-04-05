@@ -1,0 +1,127 @@
+/* team */
+
+
+.team{
+        background: var(--button-background);
+}
+
+
+.team-box{
+    display: flex;
+    
+
+}
+
+/* team-contakt */
+.team-contakt{
+       
+        display:flex;
+     
+
+        
+}
+
+.link-icon{
+       
+        transition-property: background-color,color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       width: 100%;
+       height: 100%;
+       border-radius: 50%;
+        color:var(--icon-fill-color);
+        
+&:hover,
+&:focus {
+                background-color: var(--accent-text-color);
+                color: var(--white-text-color);
+        }
+}
+
+
+
+.icon-team {
+      
+       fill:currentColor;    
+}
+
+
+.team-item{
+        margin-right: 10px;
+        width: 44px;
+        height: 44px;
+
+        &:last-child {
+        margin-right: 0px;
+                }
+}
+
+.team-items{
+        
+       margin-right: 30px;
+        background: var(--white-text-color);
+
+        &:last-child {
+        margin-right: 0px;
+                }
+}
+
+.team-shadow{
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+                border-radius: 0px 0px 4px 4px;
+}
+
+
+
+
+
+
+
+
+.contakt-box{
+        display: flex;
+        justify-content: center;
+        
+}
+       
+
+
+
+
+
+.team-list{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.team-title{
+        margin-bottom: 50px;
+        
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+    
+   
+}
+.subtitle-team{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        margin-bottom: 10px;
+}
+.subtitle-text{
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        margin-bottom: 16.79px;
+
+        color: var(--secondary-text-color);
+}
