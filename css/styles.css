@@ -60,9 +60,7 @@ body{
 
 /* logo */
 
-.logo-box{
-    display: flex;
-}
+
 
 .logo-height{
     display: block;

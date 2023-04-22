@@ -1,23 +1,43 @@
 /* logo */
 
-.logo-box {
-    display: flex;
-}
 
 .logo-height {
-    display: block;
+   
 
-    padding-top: 24px;
-    padding-bottom: 25px;
+    
+    @media screen and (min-width:480px) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    @media screen and (min-width:768px) {
+        padding-top:26px;
+        padding-bottom: 26px;
+    }
+
+    @media screen and (min-width:1200px) {
+        padding-top: 24px;
+        padding-bottom: 25px;
+        
+    }
+
 }
 
 .logo {
-    margin-right: 93px;
+   
 
     font-family: var(--font-familiy-secondaruy);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    @media screen and (min-width:480px) {
+        margin-right: 276px;
+    }
+    @media screen and (min-width:768px) {
+        margin-right: 87px;
+    }
+    @media screen and (min-width:1200px) {
+        margin-right: 93px;
+    }
 }
 
 
