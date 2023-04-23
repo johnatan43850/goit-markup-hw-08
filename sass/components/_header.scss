@@ -63,6 +63,18 @@
 
 
 
+
+
+.nav__button{
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.nav-box{
+    display: none;
+}
+
 .nav {
     display: flex;
 
