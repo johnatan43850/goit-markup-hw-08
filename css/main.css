@@ -142,11 +142,24 @@ body {
 }
 
 /* nav */
-.nav__button {
+.nav-button {
+  margin: 0px;
   padding: 0px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
+  border: none;
+  display: inline-flex;
+  background-color: transparent;
+}
+
+.nav-button .nav-cross {
+  display: none;
+}
+
+.nav-button.is-open.nav-cross {
+  display: block;
+}
+
+.nav-button.is-open.nav-menu {
+  display: none;
 }
 
 .nav-box {
