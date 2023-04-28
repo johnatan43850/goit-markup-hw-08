@@ -18,16 +18,21 @@
         <div class="header-box conteiner">
             <a href="..." class="logo logo-height link"><span class="logo-blue">Web</span><span class="logo-black">Studio</span></a>
             
-            <button type="button" class="nav-button is-open">
+            <button type="button" class="menu-button ".js-open-menu>
                 <svg width="40" height="40" aria-label="перемикач мобільного меню">
                     <use class="nav-menu" href="./images/symbol-defs.svg#icon-menu_40px"> </use>
-                    <use class="nav-cross" href="./images/symbol-defs.svg#icon-Vector-1"></use>
                 </svg>
            
 
             </button>
            
-            <div class="nav-box">
+            <div class="nav-box".js-menu-container>
+
+                <button type="button" class="menu-close".js-close-menu>
+                    <svg width="40" height="40">
+                        <use class="nav-cross" href="./images/symbol-defs.svg#icon-Vector-1"></use>
+                    </svg>
+                </button>
                
                 <nav>
                     <ul class="nav list">
@@ -500,7 +505,7 @@
 
 
 
-   
+<slript src="./js/menu.js"></slript>
 <script src="./js/modal.js"></script>
 
 
