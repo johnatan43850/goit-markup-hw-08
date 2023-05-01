@@ -157,7 +157,7 @@ body {
   background-color: transparent;
 }
 
-.menu-button {
+.menu-toggle {
   margin: 0px;
   padding: 0px;
   border: none;
@@ -166,7 +166,7 @@ body {
 }
 
 @media screen and (min-width: 480px) {
-  .nav-box {
+  .menu-container {
     padding: 48px 40px;
     position: fixed;
     top: 0;
@@ -178,12 +178,12 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
-  .nav-box {
+  .menu-container {
     display: flex;
   }
 }
 @media screen and (min-width: 480px) {
-  .nav-box.is-open {
+  .menu-container.is-open {
     transform: translateX(0%);
   }
 }

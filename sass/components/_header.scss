@@ -74,7 +74,7 @@
 }
 
 
-.menu-button{
+.menu-toggle{
     margin: 0px;
     padding: 0px;
     border: none;
@@ -85,7 +85,7 @@
 }
 
 
-.nav-box{
+.menu-container{
 
    
     @media screen and (min-width:480px) {
@@ -110,7 +110,7 @@
         }
 }
 
-.nav-box.is-open{
+.menu-container.is-open{
     @media screen and (min-width:480px) {
         transform: translateX(0%);
     }
