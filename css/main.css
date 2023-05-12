@@ -299,6 +299,8 @@ body {
 }
 
 .contakt {
+  width: 100%;
+  position: relative;
   margin-left: auto;
   display: flex;
   justify-content: center;
@@ -309,17 +311,49 @@ body {
     display: inline-block;
   }
 }
-.contakt .contakt-meil {
-  padding-top: 21px;
-  padding-bottom: 10px;
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .contakt .contakt-meil {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+  }
 }
-.contakt .contakt-tel {
-  padding-top: 0;
-  padding-bottom: 21px;
+@media screen and (nin-width: 767px) and (max-width: 1199px) {
+  .contakt .contakt-meil {
+    padding-top: 21px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .contakt .contakt-tel {
+    color: var(--accent-text-color);
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .contakt .contakt-tel {
+    padding-top: 0;
+    padding-bottom: 21px;
+  }
 }
 
 .contakt-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.contakt-link {
+  display: flex;
+  margin-top: 65px;
 }
 
 .heder-contact {
