@@ -228,7 +228,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.02em;
     margin-right: 0;
-    margin-bottom: 300px;
+    margin-bottom: 305px;
   }
 }
 
@@ -311,7 +311,7 @@ body {
     display: inline-block;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .contakt .contakt-meil {
     position: absolute;
     top: 0;
@@ -351,9 +351,38 @@ body {
   margin-right: 50px;
 }
 
-.contakt-link {
-  display: flex;
-  margin-top: 65px;
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .networks {
+    display: flex;
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (min-width: 768px) {
+  .networks {
+    display: none;
+  }
+}
+
+.networks__link {
+  color: var(--accent-text-color);
+}
+
+.networks__item {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  color: var(--accent-text-color);
+}
+.networks__item:last-child {
+  padding-right: 0px;
+  border: none;
+}
+.networks__item:first-child {
+  padding-left: 0px;
 }
 
 .heder-contact {
@@ -375,10 +404,20 @@ body {
   margin-right: 10px;
   fill: currentColor;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .meil-icon {
+    display: none;
+  }
+}
 
 .tel-icon {
   margin-right: 10px;
   fill: currentColor;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .tel-icon {
+    display: none;
+  }
 }
 
 /* section */
