@@ -1,5 +1,11 @@
 /* work */
 
+.work{
+    @media screen and( min-width:480px) and (max-width: 1199px) {
+        display: none;
+    }
+}
+
 .work-padding {
     padding-top: 0;
 }
