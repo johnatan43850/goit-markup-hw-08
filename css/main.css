@@ -76,7 +76,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .conteiner {
-    min-width: 480px;
+    width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1006,19 +1006,28 @@ textarea {
 
 .customers {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: -15px;
+}
+@media screen and (min-width: 1200px) {
+  .customers {
+    flex-wrap: nowrap;
+  }
 }
 
 .customers-items {
   margin-right: 30px;
 }
-.customers-items:last-child {
-  margin-right: 0px;
-}
 @media screen and (min-width: 480px) {
   .customers-items {
     width: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .customers-items {
+    width: calc((100% - 90px) / 3);
     margin: 15px;
   }
 }
