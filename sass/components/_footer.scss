@@ -95,6 +95,11 @@
 
     margin-left: 93px;
     align-content: flex-end;
+
+    @media screen and (min-width:480px) and (max-width:767px){
+        margin-left: 0px;
+        text-align: center;
+    }
 }
 
 .subscription-emeil {
@@ -107,6 +112,10 @@
 
     padding-left: 16px;
 
+    @media screen and (min-width:480px) and (max-width:767px){
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -202,6 +211,11 @@
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+
+    @media screen and (min-width:480px) and (max-width:767px){
+       display: block;
+    
+    }
 }
 
 
@@ -209,12 +223,29 @@
 
     margin-right: 70px;
 
+@media screen and (min-width:480px) and (max-width:767px) {
+    margin-bottom: 60px;
+    text-align: center;
+    margin-right: 0px;
+}
 
+}
+
+.list-box{
+    @media screen and (min-width:480px) {
+        margin-bottom: 60px;
+        text-align: center;
+        
+        align-content: center;
+    }
 }
 
 .list-icons {
 
     display: flex;
+    @media screen and (min-width:480px) {
+        justify-content: center;
+    }
 }
 
 .item-icon {
