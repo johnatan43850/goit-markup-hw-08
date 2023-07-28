@@ -12,21 +12,21 @@
 }
 
 .section-item {
-    &:not(:last-child) {
-            margin-right: 30px;
+   
     
-        }
     @media screen and ( min-width:480px) and (max-width:767px) {
        width: 250px; 
             margin-bottom: 30px;
             width: 450px;
             &:not(:last-child) {
-                    margin-right: 0px;
+                    margin: 0px;
             
                 }
     }
     @media screen and (min-width: 768px) and (max-width:1199px) {
        width: 354px; 
+        width: calc((100% - 4* 15px) /2);
+            margin: 15px;
     }
     width: 270px;
 
@@ -34,11 +34,21 @@
 }
 
 
-
 .box {
-  
     display: flex;
+  
+    justify-content: space-between;
+
+    @media screen and(min-width:480px) and (max-width:767px) {
+        display: block;
+        margin: 0px;
+    }
+    @media screen and (min-width:768px) and (max-width:1199px){
+        margin: -15px;
+        flex-wrap: wrap;
+    }
 }
+
 
 
 
@@ -61,15 +71,22 @@
 }
 
 
-.laine-div {
-    display: flex;
-    background: var(--button-background);
-    width: 270px;
-    height: 120px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-}
+// .laine-div {
+//     display: flex;
+//     background: var(--button-background);
+//     width: 270px;
+//     height: 120px;
+//     align-items: center;
+//     justify-content: center;
+//     margin-bottom: 30px;
+
+//     @media screen and (min-width){
+//         width: 450px;
+//     }
+//     @media screen and (min-width:768px) {
+//        width: 355px; 
+//     }
+// }
 
 .laine-icon {
     fill: var(--pramary-text-color);
@@ -432,13 +449,7 @@ textarea {
 
 
 
-.box {
-    display: flex;
-    @media screen and(min-width:480px) and (max-width:767px) {
-            display: block;
-            margin-right: 0px;
-        }
-}
+
 .section-title {
     margin-bottom: 10px;
 
@@ -469,9 +480,13 @@ textarea {
     margin-bottom: 30px;
 
     @media screen and (min-width:480px) and (max-width:767px) {
-            margin-right: 0px;
+          
             width: 450px;
         }
+
+    @media screen and (min-width:768px)and(max-width:1199px) {
+        width: 355px;
+    }
 }
 
 .laine-icon {

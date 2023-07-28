@@ -39,7 +39,7 @@
             margin-right: 275px;
     }
     @media screen and (min-width:768px) {
-        margin-right: 87px;
+        margin-right: 85px;
     }
     @media screen and (min-width:1200px) {
         margin-right: 90px;
@@ -158,6 +158,10 @@ margin-right: 300px;
 
         margin-right: 0;
         margin-bottom: 305px;
+}
+
+@media screen and (min-width:768) {
+        margin-right: 0px;
 }
 }
 
