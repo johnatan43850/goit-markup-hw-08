@@ -100,6 +100,11 @@
         margin-left: 0px;
         text-align: center;
     }
+    @media screen and (min-width:768px) and (max-width:1199px){
+        
+        text-align:center;
+        
+    }
 }
 
 .subscription-emeil {
@@ -116,6 +121,10 @@
         width: 100%;
         margin-bottom: 20px;
     }
+   @media screen and (min-width:768px) and (max-width:1199px) {
+       width: 450px;
+      
+   }
 }
 
 
@@ -141,6 +150,10 @@
     color: var(--white-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+   @media screen and(min-width:768px) and (max-width:1199px) {
+        margin-top: 20px;
+   }
 }
 
 
@@ -216,6 +229,9 @@
        display: block;
     
     }
+    @media screen and (min-width:768px)and (max-width:1199px){
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -228,6 +244,11 @@
     text-align: center;
     margin-right: 0px;
 }
+@media screen and (min-width:768px) and (max-width:1199px) {
+  margin-left: 75px;
+  margin-top: 60px;
+  text-align: center;
+}
 
 }
 
@@ -236,7 +257,10 @@
         margin-bottom: 60px;
         text-align: center;
         
-        align-content: center;
+        
+    }
+    @media screen and (min-width:768px) and (max-width:1199px){
+        margin-right: 90px;
     }
 }
 
