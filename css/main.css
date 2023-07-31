@@ -129,6 +129,11 @@ body {
 @media screen and (min-width: 768px) {
   .logo {
     margin-right: 85px;
+    color: var(--pramary-text-color);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
   }
 }
 @media screen and (min-width: 1200px) {
