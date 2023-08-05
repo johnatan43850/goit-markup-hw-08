@@ -126,7 +126,7 @@ body {
     margin-right: 275px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .logo {
     margin-right: 85px;
     color: var(--pramary-text-color);
@@ -290,6 +290,12 @@ body {
     padding-bottom: 30px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .link-header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+}
 
 /*heder*/
 .header {
@@ -354,7 +360,7 @@ body {
 @media screen and (min-width: 767px) and (max-width: 1199px) {
   .contakt .contakt-tel {
     padding-top: 0;
-    padding-bottom: 21px;
+    padding-bottom: 20px;
   }
 }
 
@@ -365,7 +371,7 @@ body {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .networks {
     display: flex;
-    margin-top: 100px;
+    margin-top: 450px;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.22;
