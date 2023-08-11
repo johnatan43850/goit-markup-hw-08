@@ -91,7 +91,7 @@ body {
 }
 
 /* logo */
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .logo-height {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -117,7 +117,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .logo {
     font-weight: 700;
     font-size: 24px;
@@ -190,7 +190,7 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .menu-container {
     padding: 48px 40px;
     position: fixed;
@@ -210,7 +210,7 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .menu-container.is-open {
     transform: translateX(0%);
   }
@@ -225,7 +225,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .nav {
     display: block;
     font-weight: 500;
@@ -283,7 +283,7 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .link-header {
     display: block;
     padding-top: 0;
@@ -322,12 +322,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .contakt {
     display: block;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .contakt .contakt-meil {
     position: absolute;
     top: 0;
@@ -338,14 +338,14 @@ body {
     letter-spacing: 0.02em;
   }
 }
-@media screen and (nin-width: 767px) and (max-width: 1199px) {
+@media screen and (min-width: 767px) and (max-width: 1199px) {
   .contakt .contakt-meil {
     padding-top: 21px;
     padding-bottom: 10px;
     margin-right: 15px;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .contakt .contakt-tel {
     color: var(--accent-text-color);
     font-weight: 500;
@@ -368,7 +368,7 @@ body {
   margin-right: 50px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .networks {
     display: flex;
     margin-top: 450px;
@@ -421,7 +421,7 @@ body {
   margin-right: 10px;
   fill: currentColor;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .meil-icon {
     display: none;
   }
@@ -431,7 +431,7 @@ body {
   margin-right: 10px;
   fill: currentColor;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .tel-icon {
     display: none;
   }
@@ -442,7 +442,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .section {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -452,7 +452,7 @@ body {
 .section-item {
   width: 270px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .section-item {
     width: 250px;
     margin-bottom: 30px;
@@ -474,7 +474,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .box {
     display: block;
     margin: 0px;
@@ -499,6 +499,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
+}
+@media screen and (max-width: 767px) {
+  .section-text {
+    margin-bottom: 30px;
+  }
 }
 
 .laine-icon {
@@ -804,7 +809,7 @@ textarea {
   line-height: 1.14;
   text-transform: uppercase;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .section-title {
     text-align: center;
   }
@@ -825,7 +830,7 @@ textarea {
   justify-content: center;
   margin-bottom: 30px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .laine-div {
     width: 450px;
   }
@@ -841,7 +846,7 @@ textarea {
 }
 
 /* work */
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .work {
     display: none;
   }
@@ -899,7 +904,7 @@ textarea {
 .team-box {
   display: flex;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .team-box {
     display: block;
   }
@@ -915,7 +920,7 @@ textarea {
 .team-contakt {
   display: flex;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .team-contakt {
     display: block;
   }
@@ -955,7 +960,7 @@ textarea {
   margin-right: 30px;
   background: var(--white-text-color);
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .team-items {
     margin: 0px;
   }
@@ -995,7 +1000,7 @@ textarea {
   line-height: 1.16;
   text-align: center;
 }
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .team-title {
     font-style: normal;
     font-weight: 700;
@@ -1046,7 +1051,7 @@ textarea {
 .customers-items {
   margin-right: 30px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .customers-items {
     width: calc((100% - 60px) / 2);
     margin: 15px;
@@ -1079,7 +1084,7 @@ textarea {
   color: var(--accent-text-color);
   border: 1px solid var(--accent-text-color);
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .customers-link {
     width: 210px;
     height: 92px;
@@ -1166,7 +1171,7 @@ textarea {
   margin-left: 93px;
   align-content: flex-end;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .subscription {
     margin-left: 0px;
     text-align: center;
@@ -1187,7 +1192,7 @@ textarea {
   color: #FFFFFF;
   padding-left: 16px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .subscription-emeil {
     width: 100%;
     margin-bottom: 20px;
@@ -1272,7 +1277,7 @@ textarea {
   align-items: baseline;
   justify-content: space-between;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .conteiner-box {
     display: block;
   }
@@ -1286,7 +1291,7 @@ textarea {
 .adress-box {
   margin-right: 70px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .adress-box {
     margin-bottom: 60px;
     text-align: center;
@@ -1301,7 +1306,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .list-box {
     margin-bottom: 60px;
     text-align: center;
@@ -1316,7 +1321,7 @@ textarea {
 .list-icons {
   display: flex;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .list-icons {
     justify-content: center;
   }

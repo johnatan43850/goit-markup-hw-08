@@ -33,7 +33,7 @@
     //      margin-right: 0px;
     //     }
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:767px) {
    width: calc((100% - 4 * 15px) /2);
    margin: 15px;
 }
@@ -74,7 +74,7 @@
             border: 1px solid var(--accent-text-color);
         }
 
-        @media screen and (min-width:480px){
+        @media screen and (max-width:767px){
             width: 210px;
             height: 92px;
         }
