@@ -115,7 +115,24 @@
 
     max-width: 1600px;
 
+   
+
 }
+
+ @media screen and (min-dievice-pixel-ratio: 2),
+ screen and (min-resolution:192dpi),
+ screen and (min-resolution:2dppx) {
+     @media screen and (max-width:767px) {
+         background-image: linear-gradient(to right,
+                 rgba(47, 48, 58, 0.4),
+                 rgba(47, 48, 58, 0.4)), url(../imeges/hero.mobile.jpg);
+                background-repeat: no-repeat;
+                    margin-left: auto;
+                    margin-right: auto;
+                    background-position: center;
+     }
+
+ }
 
 .hero__title {
     margin-bottom: 30px;
