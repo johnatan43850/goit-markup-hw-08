@@ -307,8 +307,8 @@ body {
 @media screen and (max-width: 767px) {
   .header {
     border-bottom: 1px solid #ECECEC;
-    position: absolute;
-    z-index: 0;
+    position: fixed;
+    z-index: 1;
     width: 100%;
     min-height: 60px;
     top: 0;
@@ -456,6 +456,11 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media screen and (min-width: 0px) and (max-width: 479px) {
+  .section {
+    width: 480px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .section {
     padding-top: 60px;
@@ -597,6 +602,7 @@ body {
 @media screen and (max-width: 767px) {
   .hero__title {
     font-size: 26px;
+    line-height: 1.61;
   }
 }
 
@@ -682,6 +688,11 @@ body {
   transform: translate(-50%, -50%) scale(1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (max-width: 767px) {
+  .modal {
+    width: 450px;
+  }
+}
 
 .close-icon {
   display: flex;
@@ -734,6 +745,13 @@ body {
   align-items: center;
   justify-content: center;
   user-select: none;
+}
+@media screen and (max-width: 767px) {
+  .label-checkbox {
+    font-size: 12px;
+    line-height: 1.16;
+    justify-content: left;
+  }
 }
 
 .link-checkbox {
@@ -1179,6 +1197,11 @@ textarea {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (min-width: 0px) and (max-width: 479px) {
+  .footer-box {
+    width: 480px;
+  }
+}
 
 .footer-items {
   display: block;
@@ -1243,7 +1266,9 @@ textarea {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .subscription {
+    margin-left: 160px;
     text-align: center;
+    width: 450px;
   }
 }
 
@@ -1334,6 +1359,11 @@ textarea {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .title-icon {
+    text-align: center;
+  }
 }
 
 .conteiner-box {

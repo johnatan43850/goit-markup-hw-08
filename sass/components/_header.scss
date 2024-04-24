@@ -261,8 +261,8 @@ margin-right: 300px;
 
     @media screen and (max-width:767px) {
         border-bottom: 1px solid #ECECEC;
-           position: absolute;
-            z-index: 0;
+           position:fixed;
+            z-index: 1;
             width: 100%;
             min-height: 60px;
             top: 0;
